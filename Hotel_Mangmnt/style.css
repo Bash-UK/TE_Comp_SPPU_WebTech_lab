@@ -1,0 +1,233 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #eee;
+  color: #ccc;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+nav li a:hover {
+
+  padding:13px 13px;
+  background-color: #333;
+  color: white; 
+  font-weight: bold;
+  width: 100%;
+}
+
+/* Main content styles */
+main {
+  padding: 50px;
+}
+
+/* Hero section styles */
+#hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#hero h1 {
+  font-family:cursive;
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+#hero .btn {
+  display: inline;
+  padding: 10px 20px;
+  margin: 0 auto;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: 700;
+}
+
+#hero .btn:hover{
+  background-color: #ebe4e4;
+  color: #333;
+}
+/* Rooms section styles */
+#rooms {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#rooms h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#rooms table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+#rooms td {
+  padding: 20px;
+  border:none;
+}
+
+#rooms td {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#rooms .btn {
+  display: block;
+  padding: 10px 20px;
+  margin: 0 auto;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+#rooms .btn:hover{
+  background-color: #ebe4e4;
+  color: #333;
+}
+
+/* Services section styles */
+#services {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#services h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.serv-list{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.serv-list .serv-item{
+  margin-right: 10px;
+}
+.serv-list img{
+  width: 300px !important;
+  height: 190px;
+}
+
+.serv-list .serv-item p{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#services li {
+  text-align: center;
+  margin: 20px;
+  flex-basis: 45%;
+}
+
+#services li img {
+  margin-bottom: 10px;
+}
+
+/* Contact section styles */
+#contact {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#contact form {
+  display: inline-block;
+  text-align: inherit;
+}
+
+#contact input {
+  display: block;
+  font-size: 25px;
+  border:none;
+  border-bottom: 3px solid #077bff94;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  outline: none
+}
+#contact textarea {
+  display: block;
+  font-family: sans-serif;
+  font-size: 25px;
+  border:none;
+  border-bottom: 3px solid #077bff94;
+  padding: 7px 10px;
+  width: 275px;
+  height: 100px;
+  outline: none
+}
+#contact .btn{
+  display: inline-block;
+  padding: 5px 5px;
+  margin-top: 10px;
+  background-color: #077bfffa;
+  color: #fff;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#contact .btn:hover{
+  background-color: #ebe4e4;
+  color: #333;
+}
+

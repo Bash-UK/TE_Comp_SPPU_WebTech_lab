@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Management Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <img src="images/logo2.png" alt="Hotel Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Hero section -->
+        <section id="hero">
+            <h1>Welcome to our Hotel</h1>
+            <p>Discover a world of luxury and comfort</p>
+            <a href="#" class="btn">Book Now</a>
+        </section>
+
+        <!-- Rooms section -->
+        <section id="rooms">
+            <h2>Our Rooms</h2>
+            <p>We offer a variety of luxurious rooms to suit your needs.</p>
+            <div style="overflow-x:auto"><table>
+                <tr class="room_img">
+                    <td><img src="images/room1.jpg" alt="Standard Room"></td>
+                    <td><img src="images/room2.jpg" alt="Suite Room"></td>
+                    <td><img src="images/room3.jpg" alt="Executive Room"></td>
+                </tr>
+                <tr>
+                    <td>Standard Room</td>
+                    <td>Suite Room</td>
+                    <td>Executive Room</td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="btn">View Details</a></td>
+                    <td><a href="#" class="btn">View Details</a></td>
+                    <td><a href="#" class="btn">View Details</a></td>
+                </tr>
+            </table>
+          </div>
+        </section>
+
+        <!-- Services section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Enjoy our premium services during your stay.</p>
+            <div class="serv-list">
+              <div class="serv-item"  id="serv1"><img src="/images/spa.jpg" alt="spa">
+                <p>Spa and Wellness</p>
+              </div>
+              <div class="serv-item" id="serv2"><img src="/images/gym.jpg" alt="Gym">
+                <p>Fitness Center</p>
+              </div>
+              <div class="serv-item" id="serv3"><img src="/images/restaurant.jpg" alt="Restaurant">
+                <p>Fine Dining Restaurant</p>
+              </div>
+              <div class="serv-item" id="serv4"><img src="/images/pool.jpg" alt="Pool">
+                <p>Outdoor Swimming Pool</p>
+              </div>
+            </div>
+            
+            <!-- <ul>
+                <li><img src="/images/spa.jpg" alt="Spa">Spa and Wellness</li>
+                <li><img src="images/gym.jpg" alt="Gym">Fitness Center</li>
+                <li><img src="/images/restaurant.jpg" alt="Restaurant">Fine Dining Restaurant</li>
+                <li><img src="/images/pool.jpg" alt="Pool">Outdoor Swimming Pool</li>
+            </ul> -->
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any inquiries or bookings.</p>
+            <form>
+              
+                <input type="text" id="name" name="name" placeholder="Name" required>
+
+        
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+               
+                <textarea id="message" name="message" rows="4" cols="40" placeholder="Message" required></textarea>
+
+                <br><a href="#" class="btn">Send</a>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer style="text-align: center; font-size: 18px;">
+        <p>&copy; 2023 Hotel Management. All rights reserved.</p>
+    </footer>
+</body>
+</
